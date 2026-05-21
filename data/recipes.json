@@ -1,0 +1,132 @@
+{
+  "recipes": [
+    {
+      "id": "wooden_sword",
+      "result": {
+        "item": "wooden_sword",
+        "count": 1
+      },
+      "station": "hand",
+      "ingredients": [
+        {
+          "item": "wood",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "stone_axe",
+      "result": {
+        "item": "stone_axe",
+        "count": 1
+      },
+      "station": "hand",
+      "ingredients": [
+        {
+          "item": "wood",
+          "count": 3
+        },
+        {
+          "item": "stone",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "iron_pickaxe",
+      "result": {
+        "item": "iron_pickaxe",
+        "count": 1
+      },
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item": "wood",
+          "count": 3
+        },
+        {
+          "item": "iron_ingot",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "wooden_block",
+      "result": {
+        "item": "wooden_block",
+        "count": 4
+      },
+      "station": "hand",
+      "ingredients": [
+        {
+          "item": "wood",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "stone_block",
+      "result": {
+        "item": "stone_block",
+        "count": 4
+      },
+      "station": "hand",
+      "ingredients": [
+        {
+          "item": "stone",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "campfire",
+      "result": {
+        "item": "campfire",
+        "count": 1
+      },
+      "station": "hand",
+      "ingredients": [
+        {
+          "item": "wood",
+          "count": 10
+        },
+        {
+          "item": "stone",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "workbench",
+      "result": {
+        "item": "workbench",
+        "count": 1
+      },
+      "station": "hand",
+      "ingredients": [
+        {
+          "item": "wood",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "id": "iron_ingot",
+      "result": {
+        "item": "iron_ingot",
+        "count": 1
+      },
+      "station": "furnace",
+      "ingredients": [
+        {
+          "item": "iron_ore",
+          "count": 2
+        },
+        {
+          "item": "wood",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

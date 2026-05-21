@@ -1,0 +1,79 @@
+{
+  "biomes": [
+    {
+      "id": "forest",
+      "name": "Forest",
+      "surface_tiles": [
+        "grass",
+        "dirt"
+      ],
+      "resources": [
+        {
+          "type": "tree",
+          "density": 0.3
+        },
+        {
+          "type": "rock",
+          "density": 0.1
+        },
+        {
+          "type": "berry_bush",
+          "density": 0.15
+        }
+      ],
+      "underground": "dirt",
+      "cave_entrance_chance": 0.05,
+      "color": "#2d5016"
+    },
+    {
+      "id": "snow",
+      "name": "Snow",
+      "surface_tiles": [
+        "snow",
+        "ice"
+      ],
+      "resources": [
+        {
+          "type": "pine_tree",
+          "density": 0.2
+        },
+        {
+          "type": "rock",
+          "density": 0.15
+        },
+        {
+          "type": "ice_crystal",
+          "density": 0.05
+        }
+      ],
+      "underground": "stone",
+      "cave_entrance_chance": 0.03,
+      "color": "#e8f4f8"
+    },
+    {
+      "id": "cave",
+      "name": "Cave",
+      "surface_tiles": [
+        "stone",
+        "dirt"
+      ],
+      "resources": [
+        {
+          "type": "iron_ore",
+          "density": 0.1
+        },
+        {
+          "type": "coal",
+          "density": 0.15
+        },
+        {
+          "type": "crystal",
+          "density": 0.05
+        }
+      ],
+      "underground": "stone",
+      "cave_entrance_chance": 0.0,
+      "color": "#4a3728"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "id": "wood",
+      "name": "Wood",
+      "type": "resource",
+      "stackable": true,
+      "max_stack": 99,
+      "description": "Basic building material from trees.",
+      "sprite": "res://assets/items/wood.png"
+    },
+    {
+      "id": "stone",
+      "name": "Stone",
+      "type": "resource",
+      "stackable": true,
+      "max_stack": 99,
+      "description": "Hard rock for tools and buildings.",
+      "sprite": "res://assets/items/stone.png"
+    },
+    {
+      "id": "iron_ore",
+      "name": "Iron Ore",
+      "type": "resource",
+      "stackable": true,
+      "max_stack": 64,
+      "description": "Raw iron. Needs smelting.",
+      "sprite": "res://assets/items/iron_ore.png"
+    },
+    {
+      "id": "iron_ingot",
+      "name": "Iron Ingot",
+      "type": "resource",
+      "stackable": true,
+      "max_stack": 64,
+      "description": "Smelted iron for advanced crafting.",
+      "sprite": "res://assets/items/iron_ingot.png"
+    },
+    {
+      "id": "berry",
+      "name": "Wild Berry",
+      "type": "consumable",
+      "stackable": true,
+      "max_stack": 20,
+      "description": "Restores 5 hunger. Might be poisonous...",
+      "effects": {
+        "hunger": 5
+      },
+      "sprite": "res://assets/items/berry.png"
+    },
+    {
+      "id": "cooked_meat",
+      "name": "Cooked Meat",
+      "type": "consumable",
+      "stackable": true,
+      "max_stack": 20,
+      "description": "Restores 20 hunger and 10 health.",
+      "effects": {
+        "hunger": 20,
+        "health": 10
+      },
+      "sprite": "res://assets/items/cooked_meat.png"
+    },
+    {
+      "id": "wooden_sword",
+      "name": "Wooden Sword",
+      "type": "weapon",
+      "stackable": false,
+      "max_stack": 1,
+      "description": "Basic weapon. 5 damage.",
+      "damage": 5,
+      "durability": 20,
+      "sprite": "res://assets/items/wooden_sword.png"
+    },
+    {
+      "id": "stone_axe",
+      "name": "Stone Axe",
+      "type": "tool",
+      "stackable": false,
+      "max_stack": 1,
+      "description": "Chops trees faster. 8 damage.",
+      "damage": 8,
+      "durability": 50,
+      "tool_power": 2,
+      "sprite": "res://assets/items/stone_axe.png"
+    },
+    {
+      "id": "iron_pickaxe",
+      "name": "Iron Pickaxe",
+      "type": "tool",
+      "stackable": false,
+      "max_stack": 1,
+      "description": "Mines deep ores. 12 damage.",
+      "damage": 12,
+      "durability": 100,
+      "tool_power": 3,
+      "sprite": "res://assets/items/iron_pickaxe.png"
+    },
+    {
+      "id": "wooden_block",
+      "name": "Wooden Block",
+      "type": "building",
+      "stackable": true,
+      "max_stack": 999,
+      "description": "Basic building block.",
+      "health": 50,
+      "sprite": "res://assets/items/wooden_block.png"
+    },
+    {
+      "id": "stone_block",
+      "name": "Stone Block",
+      "type": "building",
+      "stackable": true,
+      "max_stack": 999,
+      "description": "Strong building block.",
+      "health": 150,
+      "sprite": "res://assets/items/stone_block.png"
+    },
+    {
+      "id": "campfire",
+      "name": "Campfire",
+      "type": "station",
+      "stackable": false,
+      "max_stack": 1,
+      "description": "Cook food and rest. Needs wood to fuel.",
+      "sprite": "res://assets/items/campfire.png"
+    },
+    {
+      "id": "workbench",
+      "name": "Workbench",
+      "type": "station",
+      "stackable": false,
+      "max_stack": 1,
+      "description": "Unlocks advanced crafting recipes.",
+      "sprite": "res://assets/items/workbench.png"
+    }
+  ]
+}

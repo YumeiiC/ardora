@@ -1,0 +1,21 @@
+# Godot
+.import/
+export.cfg
+export_presets.cfg
+*.tmp
+
+# Build
+build/
+android/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Godot specific
+.godot/
+*.translation

@@ -1,0 +1,86 @@
+{
+  "enemies": [
+    {
+      "id": "wolf",
+      "name": "Wolf",
+      "health": 30,
+      "damage": 8,
+      "speed": 80,
+      "aggro_range": 150,
+      "attack_range": 30,
+      "attack_cooldown": 1.5,
+      "drops": [
+        {
+          "item": "cooked_meat",
+          "chance": 0.5,
+          "min": 1,
+          "max": 2
+        }
+      ],
+      "spawn_biome": [
+        "forest",
+        "snow"
+      ],
+      "spawn_time": [
+        "night"
+      ],
+      "sprite": "res://assets/sprites/enemies/wolf/"
+    },
+    {
+      "id": "bat",
+      "name": "Cave Bat",
+      "health": 15,
+      "damage": 5,
+      "speed": 100,
+      "aggro_range": 100,
+      "attack_range": 25,
+      "attack_cooldown": 1.0,
+      "drops": [
+        {
+          "item": "berry",
+          "chance": 0.3,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "spawn_biome": [
+        "cave"
+      ],
+      "spawn_time": [
+        "any"
+      ],
+      "sprite": "res://assets/sprites/enemies/bat/"
+    },
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "health": 45,
+      "damage": 12,
+      "speed": 60,
+      "aggro_range": 120,
+      "attack_range": 35,
+      "attack_cooldown": 2.0,
+      "drops": [
+        {
+          "item": "wood",
+          "chance": 0.6,
+          "min": 2,
+          "max": 5
+        },
+        {
+          "item": "stone",
+          "chance": 0.4,
+          "min": 1,
+          "max": 3
+        }
+      ],
+      "spawn_biome": [
+        "cave"
+      ],
+      "spawn_time": [
+        "any"
+      ],
+      "sprite": "res://assets/sprites/enemies/goblin/"
+    }
+  ]
+}
