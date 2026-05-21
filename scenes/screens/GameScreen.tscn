@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" uid="uid://player" path="res://scenes/player/Player.tscn" id="1_p"]
+
+[node name="GameScreen" type="Node2D"]
+
+[node name="World" type="Node2D" parent="."]
+
+[node name="Player" parent="." instance=ExtResource("1_p")]
+position = Vector2(640, 360)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HUD" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1280.0
+offset_bottom = 720.0

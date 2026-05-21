@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/player/player.gd" id="1_p"]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_p")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_8px")
+
+[node name="PlayerStats" type="Node" parent="."]
+script = ExtResource("1_ps")
+
+[node name="Inventory" type="Node" parent="."]
+script = ExtResource("1_inv")
+
+[node name="CombatSystem" type="Node" parent="."]
+script = ExtResource("1_cs")
+
+[node name="PlayerInput" type="Node" parent="."]
+script = ExtResource("1_pi")
